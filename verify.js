@@ -5,7 +5,7 @@ document.write('<p>SHA1 from the URL pathname: <span style="color:purple">' + p 
 let h = decodeURI(location.hash.substring(1)).replaceAll("<br>","\n").replaceAll("%20"," ");
 let hh = h.replaceAll("\n", "<br>")
 
-if (hh == null) {
+if (hh === "") {
 
     document.write('<p>No SHA1 comparison possible if there is no text right of the \'/#\' in the URL</p>');
 
