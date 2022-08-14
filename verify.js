@@ -7,7 +7,7 @@ let hh = h.replaceAll("\n", "<br>")
 
 if (hh === "") {
 
-    document.write('<p>No SHA1 comparison possible if there is no text right of the \'/#\' in the URL</p>');
+    document.write('<p>❌No SHA1 comparison possible if there is no text right of the \'/#\' in the URL<br>No claim whatsoever can be made for this SHA1. Could be Angela Lansbury apply for CEO, or George Cloony applying for the typing pool: you have no idea and should not trust anyone simply linking to this hash without the unhashed text in the URL and this message missing❌</p>');
 
 } else {
 
