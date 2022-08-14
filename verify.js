@@ -7,12 +7,11 @@ let hh = h.replaceAll("\n", "<br>")
 
 if (hh === "") {
 
-    document.write('<p>❌No SHA1 comparison possible if there is no text right of the \'/#\' in the URL<br>No claim whatsoever can be made for this SHA1. Could be Angela Lansbury apply for CEO, or George Cloony applying for the typing pool: you have no idea and should not trust anyone simply linking to this hash without the unhashed text in the URL and this message missing❌</p>');
+    document.write('<p>❌No SHA1 comparison possible if there is no text right of the \'/#\' in the URL<br>No claim whatsoever can be made for this SHA1. Could be Angela Lansbury apply for CEO, or George Cloony applying for the typing pool: you have no idea and should not trust anyone simply linking to this hash without the unhashed text in the URL and this particular message missing❌</p>');
 
 } else {
 
     document.write('<p>Text (right of the \'/#\' in the URL):</p><div style="margin-left: 20px"><b style="color:red">' + hh + '</b></div>')
-
 
     let sha1 = new Hashes.SHA1().hex(h);
 
